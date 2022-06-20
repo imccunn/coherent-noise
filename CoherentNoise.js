@@ -12,3 +12,4 @@ function CoherentNoise(x) {
   return noise;
 }
 
+module.exports = CoherentNoise;

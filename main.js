@@ -1,6 +1,3 @@
-'use strict';
-
-var log = console.log;
 
 var IntegerNoise = require('./IntegerNoise');
 var rand = require('./Rand').rand;
@@ -11,7 +8,7 @@ var setOfNoise = [];
 var numSet = args[2];
 
 if (!numSet) {
-  log('Expected number of noise as second arg.');
+  console.log('Expected number of noise values to generate as second arg.');
   return;
 }
 
